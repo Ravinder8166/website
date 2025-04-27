@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MerciMs - Luxury Redefined</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F5F5DC; /* Cream */
+            color: #006400; /* Emerald Green */
+        }
+
+        header {
+            background-color: #006400; /* Emerald Green */
+            color: #F5F5DC; /* Cream */
+            padding: 20px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin-left: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #F5F5DC; /* Cream */
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ddd;
+        }
+
+        .hero {
+            background-image: url('luxury_background.jpg'); /* Replace with your image */
+            background-size: cover;
+            background-position: center;
+            color: #F5F5DC; /* Cream */
+            text-align: center;
+            padding: 150px 0;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero-title {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .hero-subtitle {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #006400; /* Emerald Green */
+            color: #F5F5DC; /* Cream */
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #004d00;
+        }
+
+        .featured-section {
+            padding: 50px 30px;
+            text-align: center;
+        }
+
+        .featured-title {
+            font-size: 2.5em;
+            color: #006400; /* Emerald Green */
+            margin-bottom: 30px;
+        }
+
+        .featured-items {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .item {
+            background-color: #FFFFFF;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+
+        .item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .item-title {
+            font-size: 1.2em;
+            color: #006400; /* Emerald Green */
+            margin-bottom: 10px;
+        }
+
+        .item-description {
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background-color: #006400; /* Emerald Green */
+            color: #F5F5DC; /* Cream */
+            text-align: center;
+            padding: 20px;
+            position: sticky;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">MerciMs</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Collections</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Experience Unparalleled Luxury</h1>
+            <p class="hero-subtitle">Discover the exquisite craftsmanship of MerciMs.</p>
+            <a href="#" class="button">Explore Our Collections</a>
+        </div>
+    </section>
+
+    <section class="featured-section">
+        <h2 class="featured-title">Featured Collections</h2>
+        <div class="featured-items">
+            <div class="item">
+                <img src="product1.jpg" alt="Luxury Item 1">
+                <h3 class="item-title">Elegant Handbags</h3>
+                <p class="item-description">Crafted with the finest materials and attention to detail.</p>
+                <a href="#" class="button">View Details</a>
+            </div>
+            <div class="item">
+                <img src="product2.jpg" alt="Luxury Item 2">
+                <h3 class="item-title">Exquisite Jewelry</h3>
+                <p class="item-description">Timeless pieces that reflect sophisticated style.</p>
+                <a href="#" class="button">View Details</a>
+            </div>
+            <div class="item">
+                <img src="product3.jpg" alt="Luxury Item 3">
+                <h3 class="item-title">Premium Accessories</h3>
+                <p class="item-description">Elevate your look with our exclusive accessories.</p>
+                <a href="#" class="button">View Details</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 MerciMs. All rights reserved.</p>
+    </footer>
+</body>
+</html>
